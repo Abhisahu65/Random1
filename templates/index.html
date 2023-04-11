@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Randomizer.com</title>
+    <style>
+      body {
+        background-image: url("https://skydrive3m-my.sharepoint.com/:i:/r/personal/ad1hdzz_mmm_com/Documents/Desktop/Work/FY-2023/My_Project/Python_Automation/Web%20Deployment%20Project/Html%20page%20new/images/final.jpg?csf=1&web=1&e=AnOtUR");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+    </style>
+  </head>
+  <body>
+    <title>My Html</title>
+    <style>
+      body {
+        background-color: #f5f6f8;
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        font-size: 34px;
+        color: #030303;
+        text-align: center;
+        margin-top: 60px;
+      }
+      
+      form {
+        width: 300px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 07px;
+        color: #333;
+        font-size: 18px;
+      }
+      
+      input[type="number"] {
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+   
+      input[type="text"] {
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+      
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 100px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #666;
+      }
+    </style>
+    <title>Random Number Generator</title>
+  </head>
+    <h1>RANDOMIZER</h1>
+    <form method="POST" action="/generate">
+      <label for="num_sets">How many sets of numbers do you want to generate ?</label>
+      <input type="number" name="num_sets" id="num_sets"><br>
+      <br>
+      <label for="num_per_set">How many numbers per set ?</label>
+      <input type="number" name="num_per_set" id="num_per_set"><br>
+      <br> 
+      <label for="num_range">Number range ?</label>
+      <input type="text" name="num_range" id="num_range"><br>
+      <small>Example:10-10</small><br>
+      <br>
+      <input type="submit" value="GENERATE">
+    </form>
+  </body>
+</html>
